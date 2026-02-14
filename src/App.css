@@ -8,4 +8,35 @@
     margin: 50px;
     padding: 30px;
     display: flex;
+    flex-direction: column;
+    border: black 2px solid;
+   
+}
+
+
+/* Avater styling*/
+.avater-component{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.avater {
+    margin: 10px;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+/*Data styling*/
+.data {
+    margin: 20px;
+    border: black solid 2px;
+    padding: 5px;
+}
+
+/*Intro components */
+.intro-components {
+    margin: 20px;
+    border: solid black 3px;
+    padding: 20px;
 }

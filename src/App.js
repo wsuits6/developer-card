@@ -5,6 +5,10 @@ import { MdOutlineAccountTree } from "react-icons/md";
 
 //CSS Importation
 import "./App.css";
+
+//Importing Image from Public
+import avater from "./assets/wsuits6.png"
+
 //=======================================
 function App() {
   return (
@@ -13,7 +17,10 @@ function App() {
       <div className="avater-component">
         {/**Avater Component goes here */}
         <img
-        src=""
+        src={avater}
+        alt="WSUITS6-image"
+        //class for styling
+        className="avater"
         >
         </img>
       </div>
