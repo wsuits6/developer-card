@@ -1,25 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+// importing react icons
+import { FaLinux, FaBook, FaShieldAlt } from "react-icons/fa";
+import { SiReact, SiJavascript } from "react-icons/si";
+import { MdOutlineAccountTree } from "react-icons/md";
 
+//=======================================
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="card"> 
+      <div className="avater-component">
+        {/**Avater Component goes here */}
+      </div>
+
+      {/**Data container */}
+
+      <div className="data">
+        <div className="intro-components">
+          <h1 className="name"> Alhassan Osman Wunpini - WSUITS6</h1>
+          <h2 className="Bio">
+            Builder, strategic thinker, and learning machine. Not an entertainer or motivational speaker. Every action serves authority, recruitment, or learning.
+          </h2>
+        </div>
+
+        {/**Skill Set components  */}
+        <div className="skillset-container">
+          
+          {/**skilss */}
+          <div>
+            {/**react ICON  */}
+            <FaLinux size={28}/>
+            <h3>Linux</h3>
+          </div>
+
+          <div>
+            {/**react ICON  */}
+            <SiReact size={28}/>
+            <h3>Frontend Development</h3>
+          </div>
+
+          <div>
+            {/**react ICON  */}
+            <MdOutlineAccountTree size={28} />
+            <h3>Systems thinking</h3>
+          </div>
+
+          <div>
+            {/**react ICON  */}
+             <FaShieldAlt size={28} />
+            <h3>Offensive Security</h3>
+          </div>
+
+          <div>
+            {/**react ICON  */}
+            <FaBook size={28} />
+            <h3>Book Writing</h3>
+          </div>
+        </div>
+      </div>
     </div>
-  );
+    </>
+  )
 }
 
 export default App;
