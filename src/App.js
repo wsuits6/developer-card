@@ -36,22 +36,22 @@ function App() {
         </div>
 
         {/**Skill Set components  */}
-        <div className="skillset-container">
+        <div className="skills">
           
           {/**skilss */}
-          <div>
+          <div className="skill">
             {/**react ICON  */}
             <FaLinux size={28}/>
             <h3>Linux</h3>
           </div>
 
-          <div>
+          <div className="skill">
             {/**react ICON  */}
             <SiReact size={28}/>
             <h3>Frontend Development</h3>
           </div>
 
-          <div>
+          <div className="skill">
             {/**react ICON  */}
             <MdOutlineAccountTree size={28} />
             <h3>Systems thinking</h3>
@@ -63,7 +63,7 @@ function App() {
             <h3>Offensive Security</h3>
           </div>
 
-          <div>
+          <div className="skill">
             {/**react ICON  */}
             <FaBook size={28} />
             <h3>Book Writing</h3>

@@ -1,7 +1,9 @@
 *{
-    background-color: rgb(255, 255, 255);
+    background-color: #f8f8f8;
     margin: 0 auto;
     padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI';
 }
 
 .card{
@@ -39,4 +41,33 @@
     margin: 20px;
     border: solid black 3px;
     padding: 20px;
+}
+
+.name {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    color: rgb(6, 6, 104);
+}
+
+.bio {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+/*SKills Section styling*/
+.skills {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 5px;
+    align-items: center;
+}
+
+/*Skilss styling*/
+.skill {
+    margin: 3px;
+    align-self: center;
+
 }
