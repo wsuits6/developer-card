@@ -3,6 +3,8 @@ import { FaLinux, FaBook, FaShieldAlt } from "react-icons/fa";
 import { SiReact, SiJavascript } from "react-icons/si";
 import { MdOutlineAccountTree } from "react-icons/md";
 
+//CSS Importation
+import "./App.css";
 //=======================================
 function App() {
   return (
@@ -10,6 +12,10 @@ function App() {
     <div className="card"> 
       <div className="avater-component">
         {/**Avater Component goes here */}
+        <img
+        src=""
+        >
+        </img>
       </div>
 
       {/**Data container */}
