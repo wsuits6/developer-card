@@ -1,78 +1,26 @@
-// importing react icons
-import { FaLinux, FaBook, FaShieldAlt } from "react-icons/fa";
-import { SiReact, SiJavascript } from "react-icons/si";
-import { MdOutlineAccountTree } from "react-icons/md";
-
 //CSS Importation
 import "./App.css";
 
-//Importing Image from Public
-import avater from "./assets/wsuits6.png"
+//Importing component
+import Avater  from "./components/Avater";
+import Intro  from "./components/Intro";
+import Skills from "./components/Skills"
 
-//=======================================
+
+
+//========================
+
 function App() {
   return (
-    <>
+    <> {/**Empty DIV for all main ELEMENTS */}
     <div className="card"> 
-      <div className="avater-component">
-        {/**Avater Component goes here */}
-        <img
-        src={avater}
-        alt="WSUITS6-image"
-        //class for styling
-        className="avater"
-        >
-        </img>
-      </div>
-
-      {/**Data container */}
-
-      <div className="data">
-        <div className="intro-components">
-          <h1 className="name"> Alhassan Osman Wunpini - WSUITS6</h1>
-          <h2 className="Bio">
-            Builder, strategic thinker, and learning machine. Not an entertainer or motivational speaker. Every action serves authority, recruitment, or learning.
-          </h2>
-        </div>
-
-        {/**Skill Set components  */}
-        <div className="skills">
-          
-          {/**skilss */}
-          <div className="skill">
-            {/**react ICON  */}
-            <FaLinux size={28}/>
-            <h3>Linux</h3>
-          </div>
-
-          <div className="skill">
-            {/**react ICON  */}
-            <SiReact size={28}/>
-            <h3>Frontend Development</h3>
-          </div>
-
-          <div className="skill">
-            {/**react ICON  */}
-            <MdOutlineAccountTree size={28} />
-            <h3>Systems thinking</h3>
-          </div>
-
-          <div>
-            {/**react ICON  */}
-             <FaShieldAlt size={28} />
-            <h3>Offensive Security</h3>
-          </div>
-
-          <div className="skill">
-            {/**react ICON  */}
-            <FaBook size={28} />
-            <h3>Book Writing</h3>
-          </div>
-        </div>
-      </div>
+      <Avater />
+      <Intro />
+      <Skills />
     </div>
     </>
   )
 }
 
+{/**Exporting soo it can Be used by index.js */}
 export default App;
