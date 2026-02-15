@@ -13,14 +13,13 @@ import Skills from "./components/Skills"
 function App() {
   return (
     <> {/**Empty DIV for all main ELEMENTS */}
-    <div className="card"> 
+  <div className="card"> 
       <Avater />
       <Intro />
       <Skills />
-    </div>
+  </div>
     </>
   )
 }
 
-{/**Exporting soo it can Be used by index.js */}
 export default App;

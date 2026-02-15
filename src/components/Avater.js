@@ -1,5 +1,8 @@
 //Avater image component
 
+//CSS importation
+import "../App.css"
+
 //Importing Image from Public
 import avater from "../assets/wsuits6.png"
 function  Avater() {
@@ -11,11 +14,13 @@ function  Avater() {
             src={avater}
             alt="WSUITS6-image"
             //class for styling
-            // className="avater
+            className="avater"
             >
             </img>
             </div>
+        
         </>
+        
     )
 }
 

@@ -1,3 +1,7 @@
+//CSS importation
+import "../App.css"
+
+
 function Intro() {
     return (
         <>

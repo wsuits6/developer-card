@@ -3,6 +3,11 @@ import { FaLinux, FaShieldAlt } from "react-icons/fa"; //Import REACT ICONS  for
 import { SiReact} from "react-icons/si"; // Import React ICON from the Simple Icons FONTs 
 import { MdOutlineAccountTree } from "react-icons/md"; // Import React  ICON fromt the Material Desing Fonts+
 
+
+//CSS importation
+import "../App.css"
+
+
 function  Skills() {
     return (
         <>
